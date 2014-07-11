@@ -1,0 +1,14 @@
+{
+  "name": "arrow",
+  "main": "arrow.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Avoran/deft-arrow",
+  "authors": [
+    "Pieter Verloop <pieter@deft.nl>"
+  ],
+  "keywords": [
+    "arrow",
+    "angularjs"
+  ],
+  "license": "MIT"
+}
