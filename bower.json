@@ -1,7 +1,7 @@
 {
   "name": "deft-angular-arrow",
   "main": "arrow.js",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/deft/deft-angular-arrow",
   "authors": [
     "Pieter Verloop <pieter@deft.nl>"
