@@ -1,7 +1,7 @@
 angular.module('deft.arrow', [])
 	.directive('arrow', function(){
         return {
-            restrict: 'E',
+            restrict: 'A',
             scope: { position: '=', width: "=", height: "=", align: "=" },
             replace: true,
             template: '' +
