@@ -4,12 +4,12 @@ angular.module('deft.arrow', [])
             replace: true,
             scope: { arrowData: '=arrow' },
             template: '' +
-                '<div class="arrow" style="-webkit-transform:{{arrow.rotation}}">' +
+                '<div class="arrow" style="-webkit-transform:{{arrow.rotation}};position:absolute">' +
                 '<div style="width:{{arrow.right.width}}px;height:{{arrow.height}}px;position:relative;overflow:hidden;float:left">' +
-                '<div style="width:{{2*arrow.right.x}}px;height:{{2*arrow.right.y}}px;position:absolute;top:{{arrow.height-arrow.right.y}}px;left:{{arrow.right.width-arrow.right.x}}px;-webkit-transform:{{arrow.right.rotation}}"></div>' +
+                '<div class="triangle" style="width:{{2*arrow.right.x}}px;height:{{2*arrow.right.y}}px;position:absolute;top:{{arrow.height-arrow.right.y}}px;left:{{arrow.right.width-arrow.right.x}}px;-webkit-transform:{{arrow.right.rotation}}"></div>' +
                 '</div>' +
                 '<div style="width:{{arrow.left.width}}px;height:{{arrow.height}}px;position:relative;overflow:hidden;float:left">' +
-                '<div style="width:{{2*arrow.left.x}}px;height:{{2*arrow.left.y}}px;position:absolute;top:{{arrow.height-arrow.left.y}}px;right:{{arrow.left.width-arrow.left.x}}px;-webkit-transform:{{arrow.left.rotation}}"></div>' +
+                '<div class="triangle" style="width:{{2*arrow.left.x}}px;height:{{2*arrow.left.y}}px;position:absolute;top:{{arrow.height-arrow.left.y}}px;right:{{arrow.left.width-arrow.left.x}}px;-webkit-transform:{{arrow.left.rotation}}"></div>' +
                 '</div>' +
                 '</div>',
             link: function($scope){
