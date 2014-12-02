@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DeftArrow</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    <script src="arrow.js"></script>
+    <script>
+        angular.module('deft', ['deft.arrow']);
+    </script>
+    <style>
+        .test-case {
+            width: 200px;
+            height: 50px;
+            background: #f1f1f1;
+            margin: 50px auto;
+            position: relative;
+        }
+        .triangle {
+            background: #dddddd;
+        }
+    </style>
+</head>
+<body data-ng-app="deft">
+    <div class="test-case">
+        top - 45 - 15
+        <div data-arrow="{position: 'top', width: 45, height: 15}"></div>
+    </div>
+    <div class="test-case">
+        right - 45 - 15
+        <div data-arrow="{position: 'right', width: 45, height: 15}"></div>
+    </div>
+    <div class="test-case">
+        bottom - 45 - 15
+        <div data-arrow="{position: 'bottom', width: 45, height: 15}"></div>
+    </div>
+    <div class="test-case">
+        left - 45 - 15
+        <div data-arrow="{position: 'left', width: 45, height: 15}"></div>
+    </div>
+</body>
+</html>

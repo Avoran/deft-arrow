@@ -22,6 +22,6 @@ Deft-Arrow is a small [angular](http://angularjs.org) module that allows you to 
 ```
 <div>
 	some pretty text here
-	<arrow position="'right'" width="45" height="15"></arrow>
+	<div data-arrow="{position: 'right', width: 45, height: 15}"></div>
 </div>
 ```
